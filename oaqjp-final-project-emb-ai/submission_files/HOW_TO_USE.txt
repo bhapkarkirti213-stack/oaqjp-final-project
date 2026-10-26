@@ -1,0 +1,7 @@
+Run these in the Skills Network lab terminal (cd /home/project/final_project) to generate real outputs/screenshots:
+2b: python3 -> from emotion_detection import emotion_detector ; print(emotion_detector('I am really mad about this')) ; exit() ; python3 test_emotion_detection.py
+3b: python3 -> from emotion_detection import emotion_detector ; print(emotion_detector('I love my life'))
+4b: python3 -c "from EmotionDetection.emotion_detection import emotion_detector; print(emotion_detector('I am very angry'))"
+5b: python3 test_emotion_detection.py
+6b / 7c: python3 server.py, open the app, screenshot (normal text / blank text)
+8b: pylint server.py
